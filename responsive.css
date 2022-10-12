@@ -1,0 +1,43 @@
+@media (max-width:991px) {
+
+}
+@media (max-width:767px){
+
+
+}
+@media(max-width:500px){
+
+
+}
+@media(min-width:576px) and (max-width:685px){
+
+}
+
+/* col: Extra small devices Phones (<575px) */
+@media(max-width:425px){
+
+
+}
+@media(max-width:575.98px){
+
+
+}
+
+
+/*smm ------------ md: Medium devices Desktops (≥768px)*/
+@media(min-width:768px) and (max-width:991px){
+
+
+}
+
+/*mdd--------------lg : Large devices Desktops*/
+@media(min-width:992px) and (max-width:1199px){
+
+}
+
+/*lg----------------xl : Large devices Desktops (≥1200px)*/
+@media(min-width:1200px){
+    
+}
+
+
