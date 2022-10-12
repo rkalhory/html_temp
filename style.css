@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    src: url('../font/IRANSansWeb.eot');
+    src: url('../font/IRANSansWeb.eot') format('embedded-opentype'),
+    url('../font/IRANSansWeb.woff2') format('woff2'),
+    url('../font/IRANSansWeb.woff') format('woff'),
+    url('../font/IRANSansWeb.ttf') format('truetype');
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'IRANSans', Tahoma, Arial;
+    min-height: 100vh;
+    font-style: normal;
+    background: #fff;
+}
+
+::selection {
+    background: #ff4141;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #ff4141;
+    color: #fff;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+.owl-carousel{
+    touch-action: manipulation;
+    direction: ltr;
+}
+
+.owl-carousel .item{
+    direction: rtl;
+}
+
+a{
+    text-decoration: none!important;
+    transition: all .3s ease;
+    outline: none!important;
+    cursor: pointer;
+}
+
+button,button:focus{
+    outline: none!important;
+    cursor: pointer;
+}
+
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ltr{
+    direction: ltr;
+}
+
+img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
